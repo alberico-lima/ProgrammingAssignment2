@@ -6,7 +6,7 @@
 ## This function builds a special object containing a list of functions to manipulate its data(matrix)
 ## calling internal function "set" initialize the matrix
 makeCacheMatrix <- function(x = matrix()) {
-    clearinv <- NULL
+    inv <- NULL
     set <- function(y) {
         x <<- y
         inv <<- NULL
